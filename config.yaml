@@ -1,15 +1,15 @@
-baseURL: https://eternity.bora.sh # todo: change site url.
-title: Eternity # todo: change site name.
-defaultContentLanguage: 'en'
+baseURL: https://www.romainpoulin.fr # todo: change site url.
+title: Romain POULIN # todo: change site name.
+defaultContentLanguage: 'fr'
 theme: eternity
 googleAnalytics: '' # todo: set your analytics id.
 
 params:
   image: /images/banner.png
   logo: logo.png # todo: add your custom logo to static/
-  subtitle: romainpoulin.fr # todo: change default subtitle for your website.
+  subtitle: # todo: change default subtitle for your website.
   copyright: All rights reserved. # todo: set your copyright type.
-  author: Lovely Author # todo: set your full name.
+  author: Romain POULIN # todo: set your full name.
   dontShowSource: false # please, do not do this :)
   portfolio:
     columns:
@@ -25,13 +25,13 @@ params:
   socials:
     # todo: change these links.
     - icon: 'far fa-envelope fa-lg'
-      url: 'mailto:rp-pharma@pm.me'
+      url: 'mailto:trydrica@protonmail.com'
       landing: true
   homepage: "/work" # homepage link, mostly same with menu.main[0]
   specialPages:
     - work
     - archive
-  bypassWelcomePage: false # redirects "/" to "homepage" when it's true.
+  bypassWelcomePage: true # redirects "/" to "homepage" when it's true.
   disableWelcomePageBackground: false # disables the background image on the homepage
   plausible: '' # todo: set your plausible id.
   disableRadius: false
@@ -52,18 +52,15 @@ permalinks:
 
 menu:
   main:
-    - name: work
+    - name: ACCUEIL
       url: /work/
       weight: 1
-    - name: people
+    - name: SÉRIES
       url: /tags/people/
       weight: 2
-    - name: nature
+    - name: ROADTRIP
       url: /tags/nature/
       weight: 3
-    - name: archive
-      url: /tags/archive/
-      weight: 4
-    - name: about
+    - name: À PROPOS
       url: /about/
-      weight: 5
+      weight: 4
